@@ -48,6 +48,17 @@ clients:
       description: "Développement d'outils d'aide au testing et debug pour un projet de gestion du RER parisien."
       stack: ["Java", "Spring Boot", "Testing", "Debug"]
 
+recommendations:
+  heading: "Ce qu'ils disent"
+  items:
+    - name: "Jean-François Genillier"
+      title: "Scrum Master / Project Manager"
+      avatar: "jf-genillier.jpg"
+      linkedin: "https://www.linkedin.com/in/jean-fran%C3%A7ois-genillier"
+      date: "Décembre 2023"
+      relation: "Senior de Dorian sur le projet"
+      quote: "Dorian est une personne de grande maturité, autant sur l'aspect savoir faire que savoir être. Ses interventions sont pertinentes et pleines de bon sens.\n\nIl a su montrer ses compétences en développement en Java et Angular mais aussi en DevOps afin de permettre l'intégration et le déploiement continu des différentes applications. Il a su s'intégrer dans le framework Scrum et porter de nombreux sujets d'amélioration continue.\n\nJe serais ravi et enjoué de pouvoir retravailler avec Dorian. Une rencontre riche et intéressante, une personnalité honnête et bienveillante !"
+
 cta:
   heading: "Prêt à avancer ensemble sur une mission ?"
 ---

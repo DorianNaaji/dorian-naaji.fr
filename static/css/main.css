@@ -685,6 +685,129 @@ section {
 }
 
 /* =============================================
+   TESTIMONIALS / RECOMMENDATIONS
+   ============================================= */
+
+.testimonials {
+  background: var(--bg);
+  padding: var(--sp-24) 0;
+}
+
+.testimonials__intro {
+  text-align: center;
+  margin-bottom: var(--sp-16);
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--sp-6);
+}
+
+.testimonial-card {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--sp-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+  transition: all var(--ease-normal);
+}
+
+.testimonial-card:hover {
+  border-color: var(--primary-light);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.testimonial-card__quote-mark {
+  color: var(--primary-light);
+  line-height: 1;
+}
+
+.testimonial-card__text {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  flex: 1;
+}
+
+.testimonial-card__text p {
+  margin: 0 0 var(--sp-3) 0;
+}
+
+.testimonial-card__text p:last-child {
+  margin-bottom: 0;
+}
+
+.testimonial-card__footer {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  padding-top: var(--sp-5);
+  border-top: 1px solid var(--border-light);
+}
+
+.testimonial-card__avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--border);
+}
+
+.testimonial-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.testimonial-card__name {
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.testimonial-card__title {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.testimonial-card__date {
+  font-size: var(--text-xs);
+  color: var(--text-subtle);
+}
+
+.testimonial-card__linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+  color: var(--text-subtle);
+  background: transparent;
+  transition: all var(--ease-fast);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.testimonial-card__linkedin:hover {
+  color: #0A66C2;
+  background: #EFF6FF;
+}
+
+/* =============================================
    CTA SECTION
    ============================================= */
 
@@ -878,6 +1001,10 @@ section {
   }
 
   .clients__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials__grid {
     grid-template-columns: 1fr;
   }
 
