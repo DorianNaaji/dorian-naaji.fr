@@ -1,0 +1,7 @@
+.ai/
+.dump/
+.old/
+.claude/
+public/
+resources/
+.hugo_build.lock

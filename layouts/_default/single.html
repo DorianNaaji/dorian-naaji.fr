@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="article">
+  <div class="container">
+    <header class="article__header" data-animate>
+      <div class="article__meta">
+        <a href="/articles/" class="article__back">← Articles</a>
+        {{ with index .Params.categories 0 }}
+        <span class="article-card__category article-card__category--{{ lower . | replaceRE " " "-" }}">{{ . }}</span>
+        {{ end }}
+      </div>
+      <h1 class="article__title">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="article__description">{{ . }}</p>
+      {{ end }}
+      <time class="article__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-fr.html" .Date }}</time>
+    </header>
+
+    {{ with .Params.image }}
+    <div class="article__hero" data-animate>
+      <img src="{{ . }}" alt="{{ $.Title }}" class="article__hero-img">
+    </div>
+    {{ end }}
+
+    <div class="article__body prose" data-animate>
+      {{ .Content }}
+    </div>
+
+    <footer class="article__footer" data-animate>
+      <a href="/articles/" class="btn btn--secondary">← Retour aux articles</a>
+    </footer>
+  </div>
+</article>
+{{ end }}

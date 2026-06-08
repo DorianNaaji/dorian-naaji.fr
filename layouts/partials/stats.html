@@ -1,0 +1,19 @@
+{{ $stats := .Params.stats }}
+<section class="stats">
+  <div class="container">
+    <div class="stats__inner">
+
+      <h2 class="stats__heading" data-animate>{{ $stats.heading }}</h2>
+
+      <div class="stats__grid" data-animate-stagger>
+        {{ range $stats.items }}
+        <div class="stat-item">
+          <div class="stat-item__value">{{ .value }}</div>
+          <div class="stat-item__label">{{ .label }}</div>
+        </div>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</section>

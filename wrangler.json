@@ -1,0 +1,11 @@
+{
+	"name": "dorian-naaji-fr",
+	"compatibility_date": "2025-10-08",
+	"assets": {
+		"directory": "./public",
+		"not_found_handling": "404-page"
+	},
+	"observability": {
+		"enabled": true
+	}
+}

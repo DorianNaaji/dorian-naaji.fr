@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="articles-list">
+  <div class="container">
+    <div class="articles-list__header" data-animate>
+      <h1 class="articles-list__title">Articles</h1>
+      <p class="articles-list__desc">Réflexions sur le développement logiciel. Hard skills, soft skills, et retours d'expérience.</p>
+    </div>
+    <div class="articles-list__grid" data-animate-stagger>
+      {{ range .Pages }}
+      <article class="article-card">
+        <div class="article-card__meta">
+          <time class="article-card__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-fr.html" .Date }}</time>
+          {{ with index .Params.categories 0 }}
+          <span class="article-card__category article-card__category--{{ lower . | replaceRE " " "-" }}">{{ . }}</span>
+          {{ end }}
+        </div>
+        <h2 class="article-card__title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        {{ with .Description }}
+        <p class="article-card__excerpt">{{ . }}</p>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="article-card__link">Lire l'article →</a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

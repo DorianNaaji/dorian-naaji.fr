@@ -1,0 +1,26 @@
+{{ $clients := .Params.clients }}
+<section class="clients">
+  <div class="container">
+
+    <div class="clients__intro" data-animate>
+      <div class="section-label">Références</div>
+      <h2 class="section-heading">{{ $clients.heading }}</h2>
+    </div>
+
+    <div class="clients__grid" data-animate-stagger>
+      {{ range $clients.items }}
+      <div class="client-card">
+        <img src="/img/{{ .logo }}" alt="{{ .name }}" class="client-card__logo">
+        <h3 class="client-card__project">{{ .project }}</h3>
+        <p class="client-card__desc">{{ .description }}</p>
+        <div class="client-card__tags">
+          {{ range .stack }}
+          <span class="tech-chip">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,50 @@
+{{ $skills := .Params.skills }}
+<section class="skills">
+  <div class="container">
+
+    <div class="skills__intro" data-animate>
+      <div class="section-label">Expertise</div>
+    </div>
+
+    <div class="skills__grid" data-animate-stagger>
+
+      <!-- Back-End -->
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+          </svg>
+        </div>
+        <h3 class="skill-card__title">{{ index $skills 0 "title" }}</h3>
+        <p class="skill-card__desc">{{ index $skills 0 "description" }}</p>
+      </div>
+
+      <!-- Front-End -->
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <h3 class="skill-card__title">{{ index $skills 1 "title" }}</h3>
+        <p class="skill-card__desc">{{ index $skills 1 "description" }}</p>
+      </div>
+
+      <!-- Cloud & DevOps -->
+      <div class="skill-card">
+        <div class="skill-card__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+          </svg>
+        </div>
+        <h3 class="skill-card__title">{{ index $skills 2 "title" }}</h3>
+        <p class="skill-card__desc">{{ index $skills 2 "description" }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>

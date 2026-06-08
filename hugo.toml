@@ -1,0 +1,17 @@
+baseURL = "https://dorian-naaji.fr/"
+languageCode = "fr-FR"
+title = "Dorian Naaji — Développeur Full Stack"
+
+[markup]
+  [markup.highlight]
+    style = "github-dark"
+    noClasses = true
+    lineNos = false
+    tabWidth = 2
+
+[params]
+  description = "Développeur Full Stack Java / Spring / Angular / Cloud. J'accompagne mes clients dans leur transformation numérique."
+  email = "contact@dorian-naaji.fr"
+  linkedin = "https://www.linkedin.com/in/dorian-naaji/?locale=en"
+  github = "https://github.com/DorianNaaji"
+  medium = "https://medium.com/@dorian.naaji"
