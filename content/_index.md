@@ -52,7 +52,7 @@ recommendations:
   heading: "Ce qu'ils disent"
   items:
     - name: "Jean-François Genillier"
-      title: "Scrum Master / Project Manager"
+      title: "Scrum Master de Dorian sur le projet Narval Connect - ResMed"
       avatar: "jf-genillier.jpg"
       linkedin: "https://www.linkedin.com/in/jean-fran%C3%A7ois-genillier"
       date: "Décembre 2023"
