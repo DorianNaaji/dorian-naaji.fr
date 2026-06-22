@@ -1,0 +1,6 @@
+{{ $id := .Get 0 }}
+<div id="jb-widget-{{ $id }}" style="margin: 1.5rem 0;"></div>
+<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+<script>
+  MarketplaceWidget.setupMarketplaceWidget('card', {{ $id }}, '#jb-widget-{{ $id }}');
+</script>
