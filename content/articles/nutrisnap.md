@@ -40,8 +40,8 @@ Une fois installée sur un téléphone, une PWA peut silencieusement servir des 
 
 NutriSnap n'est probablement pas un business. Il ne peut pas être monétisé de façon classique, et c'est exactement pour ça que je lui fais confiance avec mes propres données.
 
-Si vous êtes développeur et voulez regarder la stack : Angular 21 standalone, Dexie.js, Gemini 2.5 Flash, déployé en SPA statique; le code source complet est sur GitHub. Si vous en avez simplement marre des apps de nutrition avec des politiques de confidentialité opaques, essayez-le.
+Si vous êtes développeur et voulez regarder la stack : Angular 21 standalone, Dexie.js, Gemini 2.5 Flash, déployé en SPA statique; le code source complet est sur GitHub. Si vous en avez simplement marre des apps de nutrition avec des politiques de confidentialité opaques (et payantes !), allez tester
 
-**Essayer NutriSnap →** [nutrisnap.dorian-naaji.fr](https://nutrisnap.dorian-naaji.fr/)  
-**GitHub →** [github.com/DorianNaaji/nutrisnap](https://github.com/DorianNaaji/nutrisnap)  
-**Clé API Gemini gratuite →** [aistudio.google.com](https://aistudio.google.com/welcome)
+**Essayer NutriSnap** : [nutrisnap.dorian-naaji.fr](https://nutrisnap.dorian-naaji.fr/)  
+**GitHub** : [github.com/DorianNaaji/nutrisnap](https://github.com/DorianNaaji/nutrisnap)  
+**Clé API Gemini gratuite** : [aistudio.google.com](https://aistudio.google.com/welcome)

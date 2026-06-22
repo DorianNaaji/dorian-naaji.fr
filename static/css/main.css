@@ -281,7 +281,7 @@ section {
   letter-spacing: 0.03em;
 }
 
-/* Variante "En mission" — pastille orange */
+/* Variante "En mission" - pastille orange */
 .hero__eyebrow--busy {
   background: #FFF7ED;
   border-color: #FED7AA;
@@ -292,7 +292,7 @@ section {
   background: #EA580C;
 }
 
-/* Variante "Disponible" — pastille verte */
+/* Variante "Disponible" - pastille verte */
 .hero__eyebrow--available {
   background: var(--primary-faint);
   border-color: var(--primary-light);
@@ -317,7 +317,7 @@ section {
   50% { opacity: 0.5; transform: scale(0.85); }
 }
 
-/* "Dorian Naaji" — titre principal */
+/* "Dorian Naaji" - titre principal */
 .hero__name {
   font-size: clamp(var(--text-5xl), 7vw, 82px);
   font-weight: var(--font-extrabold);
@@ -326,7 +326,7 @@ section {
   letter-spacing: -0.03em;
 }
 
-/* "Développeur Full Stack" — sous-titre */
+/* "Développeur Full Stack" - sous-titre */
 .hero__heading {
   font-size: clamp(var(--text-3xl), 4vw, var(--text-4xl));
   font-weight: var(--font-bold);

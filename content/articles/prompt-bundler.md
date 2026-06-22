@@ -63,6 +63,6 @@ Le plugin est disponible sur le JetBrains Marketplace et le code est ouvert sur 
 Il intègre un historique des prompts et utilise un système de templates pour garantir un formatage consistant. Si cela vous sort de l'enfer du copier-coller, l'objectif est atteint.
 
 **GitHub** : [github.com/DorianNaaji/prompt-bundler](https://github.com/DorianNaaji/prompt-bundler)  
-**Support le projet** : [buymeacoffee.com/dorian.naaji](https://buymeacoffee.com/dorian.naaji)
+**Soutenir le projet** : [buymeacoffee.com/dorian.naaji](https://buymeacoffee.com/dorian.naaji)
 
 Si vous avez des retours, des bugs ou des idées, les issues sont ouvertes sur le dépôt.

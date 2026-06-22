@@ -1,6 +1,6 @@
 baseURL = "https://dorian-naaji.fr/"
 languageCode = "fr-FR"
-title = "Dorian Naaji — Développeur Full Stack"
+title = "Dorian Naaji - Développeur Full Stack"
 
 [markup]
   [markup.highlight]
